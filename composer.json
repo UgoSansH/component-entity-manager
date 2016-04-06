@@ -15,7 +15,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php" : ">=5.5.9"
+    },
+    "suggest": {
+        "doctrine/orm" : "~2.5"
+    },
     "config": {
         "platform": {
             "php": "5.4"
