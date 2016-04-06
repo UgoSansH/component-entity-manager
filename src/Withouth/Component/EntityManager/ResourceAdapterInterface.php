@@ -57,4 +57,18 @@ interface ResourceAdapterInterface
      */
     public function save(EntityInterface $entity, $flush = true);
 
+    /**
+     * Persist entity
+     *
+     * @param EntityInterface
+     *
+     * @return boolean
+     */
+    public function persist(EntityInterface $entity);
+
+    /**
+     * Flush
+     */
+    public function flush();
+
 }

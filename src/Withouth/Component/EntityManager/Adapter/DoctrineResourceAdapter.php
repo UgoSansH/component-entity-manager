@@ -79,6 +79,9 @@ class DoctrineResourceAdapter implements ResourceAdapterInterface
         return true;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     public function persist(EntityInterface $entity)
     {
         $this->entityManager->persist($entity);
@@ -86,6 +89,9 @@ class DoctrineResourceAdapter implements ResourceAdapterInterface
         return true;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     public function flush()
     {
         $this->entityManager->flush();
