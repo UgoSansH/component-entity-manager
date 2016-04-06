@@ -2,6 +2,9 @@
     "name": "withouth/component-entity-manager",
     "description": "Base definition from entity management",
     "type": "component",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
     "authors": [
         {
             "name": "Ugo Sans H",
