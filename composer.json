@@ -2,8 +2,11 @@
     "name": "withouth/component-entity-manager",
     "description": "Base definition from entity management",
     "type": "component",
+    "license": "MIT",
     "autoload": {
-        "psr-4": { "": "src/" }
+        "psr-4": {
+            "Withouth\\Component\\EntityManager\\": "src/Withouth/Component/EntityManager"
+        }
     },
     "authors": [
         {
