@@ -1,0 +1,13 @@
+{
+    "name": "withouth/component-entity-manager",
+    "description": "Base definition from entity management",
+    "type": "component",
+    "authors": [
+        {
+            "name": "Ugo Sans H",
+            "email": "glinel.ugo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
