@@ -82,10 +82,10 @@ class Manager implements ManagerInterface
      */
     public function save(EntityInterface $entity, $flush = true)
     {
-        $this->adapter->persist($entity);
+        $this->persist($entity);
 
         if ($flush) {
-            $this->adapter->flush();
+            $this->flush();
         }
 
         return true;
