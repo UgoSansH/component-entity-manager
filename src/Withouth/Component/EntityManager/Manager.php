@@ -96,7 +96,7 @@ class Manager implements ManagerInterface
      */
     public function remove(EntityInterface $entity, $flush = true)
     {
-        $this->persist($entity);
+        $this->adapter->remove($entity);
 
         if ($flush === true) {
             $this->flush();
