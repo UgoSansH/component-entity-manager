@@ -1,10 +1,10 @@
 <?php
 
-namespace Withouth\Component\EntityManager\Adapter;
+namespace Ugosansh\Component\EntityManager\Adapter;
 
 use Doctrine\ORM\EntityManager;
-use Withouth\Component\EntityManager\ResourceAdapterInterface;
-use Withouth\Component\EntityManager\EntityInterface;
+use Ugosansh\Component\EntityManager\ResourceAdapterInterface;
+use Ugosansh\Component\EntityManager\EntityInterface;
 
 /**
  * Doctrine Manager adapter
