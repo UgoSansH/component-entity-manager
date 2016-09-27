@@ -1,6 +1,6 @@
 <?php
 
-namespace Withouth\Component\EntityManager;
+namespace Ugosansh\Component\EntityManager;
 
 /**
  * Entity interface
