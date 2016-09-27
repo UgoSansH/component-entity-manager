@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Withouth\\Component\\EntityManager\\": "src/Withouth/Component/EntityManager"
+            "Ugosansh\\Component\\EntityManager\\": "src/Ugosansh/Component/EntityManager"
         }
     },
     "authors": [
